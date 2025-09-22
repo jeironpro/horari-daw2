@@ -135,7 +135,7 @@ table .ii {
 
 @media (max-width: 600px) {
     table {
-        font-size: 8px;
+        font-size: 6px;
     }
 
     table th:nth-child(1),
