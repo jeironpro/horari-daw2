@@ -36,6 +36,10 @@ table, th, td {
     font-weight: 600;
 }
 
+th:not(:first-child), td:not(:first-child) {
+    width: 18%;
+}
+
 th {
     height: 50px;
 }
@@ -43,6 +47,7 @@ th {
 td {
     height: 100px;
     text-align: center;
+    word-wrap: break-word;
 }
 
 td .modul-profe-aula {
@@ -52,7 +57,7 @@ td .modul-profe-aula {
 
 table th:nth-child(1),
 table td:nth-child(1) {
-    width: 200px;
+    width: 10%;
 }
 
 table .oml {
@@ -67,7 +72,7 @@ table .css {
     background-color: #ffffc3;
 }
 
-table .d, 
+table .d,
 table .t {
     background-color: #ffee00;
 }
